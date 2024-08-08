@@ -28,8 +28,8 @@ modules:
       - /include
     sources:
       - type: archive
-        url: https://github.com/OpenPrinting/cups/releases/download/v2.4.7/cups-2.4.7-source.tar.gz
-        sha256: dd54228dd903526428ce7e37961afaed230ad310788141da75cebaa08362cf6c
+        url: https://github.com/OpenPrinting/cups/releases/download/v2.4.10/cups-2.4.10-source.tar.gz
+        sha256: d75757c2bc0f7a28b02ee4d52ca9e4b1aa1ba2affe16b985854f5336940e5ad7
 
   - name: gtk-cups-backend
     buildsystem: meson
@@ -40,7 +40,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/GNOME/gtk.git
-        tag: 3.24.38
+        tag: 3.24.43
   
   - name: gtk-settings
     buildsystem: simple
